@@ -166,12 +166,12 @@ c	net/minecraft/unmapped/C_2454309
 	m	(Lnet/minecraft/unmapped/C_2018497;)Lnet/minecraft/unmapped/C_2018497;	m_6391280	writeNbt	
 		p	1		nbt	
 c	net/minecraft/unmapped/C_2691939
-	m	(IIIII)V	m_5774577		m_5774577
-		p	0			p_0
-		p	1			p_1
-		p	2			p_2
-		p	3			p_3
-		p	4			p_4
+	m	(IIIII)V	m_5774577		drawRectangle
+		p	0			x1
+		p	1			y1
+		p	2			x2
+		p	3			y2
+		p	4			color
 c	net/minecraft/unmapped/C_2708985
 	m	(I)V	<init>		<init>
 		p	1			p_1
@@ -505,7 +505,7 @@ c	net/minecraft/unmapped/C_0388903		net/minecraft/unmapped/C_0388903
 		p	1			p_1
 	m	(I)V	m_7286993		m_7286993
 		p	1			p_1
-c	net/minecraft/unmapped/C_1525636		net/minecraft/unmapped/C_1525636
+c	net/minecraft/unmapped/C_1525636		net/minecraft/client/gui/screen/level/SaveLevelScreen
 	f	Lnet/minecraft/unmapped/C_3020744;	f_7387990		f_7387990
 	f	Ljava/lang/String;	f_5633768		f_5633768
 	f	I	f_0563187		f_0563187
@@ -534,8 +534,8 @@ c	net/minecraft/unmapped/C_2411117		net/minecraft/unmapped/C_2411117
 		p	1			p_1
 c	net/minecraft/unmapped/C_2842414		net/minecraft/unmapped/C_2842414
 	m	()V	<init>		<init>
-c	net/minecraft/unmapped/C_4393193		net/minecraft/unmapped/C_4393193
-	f	Lnet/minecraft/unmapped/C_3020744;	f_4216179		f_4216179
+c	net/minecraft/unmapped/C_4393193		net/minecraft/client/gui/screen/level/GenerateLevelScreen
+	f	Lnet/minecraft/unmapped/C_3020744;	f_4216179		previousScreen
 	f	[Ljava/lang/String;	f_9025279		f_9025279
 	f	[Ljava/lang/String;	f_1773455		f_1773455
 	f	[Ljava/lang/String;	f_7141696		f_7141696
@@ -554,7 +554,7 @@ c	net/minecraft/unmapped/C_4393193		net/minecraft/unmapped/C_4393193
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-c	net/minecraft/unmapped/C_5540851		net/minecraft/unmapped/C_5540851
+c	net/minecraft/unmapped/C_5540851		net/minecraft/client/gui/screen/level/LoadLevelScreen
 	f	Lnet/minecraft/unmapped/C_3020744;	f_8404091		f_8404091
 	f	Z	f_1196307		f_1196307
 	f	Z	f_6250022		f_6250022
@@ -605,5 +605,5 @@ c	net/minecraft/unmapped/C_9233105		net/minecraft/unmapped/C_9233105
 	m	(Lnet/minecraft/unmapped/C_5540851;)V	<init>		<init>
 		p	1			p_1
 	m	()V	run		run
-c	net/minecraft/unmapped/C_9811916		net/minecraft/unmapped/C_9811916
+c	net/minecraft/unmapped/C_9811916		net/minecraft/nbt/NbtElement
 	m	()V	<init>		<init>

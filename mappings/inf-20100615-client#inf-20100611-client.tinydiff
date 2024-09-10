@@ -178,8 +178,8 @@ c	net/minecraft/unmapped/C_5553933
 		p	2		material	
 		p	3		entity	
 	m	(Lnet/minecraft/unmapped/C_0557736;Lnet/minecraft/unmapped/C_0557736;)Lnet/minecraft/unmapped/C_7794883;	m_1592938		rayTrace
-		p	1			p_1
-		p	2			p_2
+		p	1			start
+		p	2			end
 c	net/minecraft/unmapped/C_7051878
 	f	[Z	f_0329558	spreadDirections	
 		c	Whether this liquid should flow in each direction.\n<br>\n@see net.minecraft.util.math.Facings	

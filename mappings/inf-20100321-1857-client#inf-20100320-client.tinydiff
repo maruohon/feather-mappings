@@ -10,7 +10,7 @@ c	net/minecraft/client/C_5664496
 	f	Ljava/util/Random;	f_6695006	f_6695006	
 	f	Ljava/util/Random;	f_4973770	f_4973770	
 	f	J	f_1430558	f_1430558	
-	f	Lnet/minecraft/client/MinecraftApplet;	f_5520023		f_5520023
+	f	Lnet/minecraft/client/MinecraftApplet;	f_5520023		applet
 	m	()V	m_4761625	m_4761625	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_9890357	m_9890357	
 		p	1		p_1	

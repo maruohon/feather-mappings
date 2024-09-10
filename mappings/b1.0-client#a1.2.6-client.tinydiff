@@ -814,7 +814,7 @@ c	net/minecraft/unmapped/C_0519776		net/minecraft/unmapped/C_0519776
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_9590849;)V	m_0166710		m_0166710
 		p	1			p_1
-c	net/minecraft/unmapped/C_4065940		net/minecraft/unmapped/C_4065940
+c	net/minecraft/unmapped/C_4065940		net/minecraft/inventory/slot/CraftingResultSlot
 	f	Lnet/minecraft/unmapped/C_5818647;	f_2887743		f_2887743
 	m	(Lnet/minecraft/unmapped/C_9639106;Lnet/minecraft/unmapped/C_5818647;Lnet/minecraft/unmapped/C_5818647;III)V	<init>		<init>
 		p	1			p_1

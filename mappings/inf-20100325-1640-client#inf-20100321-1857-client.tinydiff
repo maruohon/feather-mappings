@@ -16,7 +16,7 @@ c	net/minecraft/client/C_5664496
 	m	(Lnet/minecraft/client/C_5664496;)V	m_8603410		m_8603410
 		p	0			p_0
 c	net/minecraft/client/C_8730536
-	f	Ljava/lang/String;	f_8012522		f_8012522
+	f	Ljava/lang/String;	f_8012522		sessionId
 c	net/minecraft/unmapped/C_0774916
 	m	()I	m_0006289	m_0006289	
 	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_7197439	m_7197439	

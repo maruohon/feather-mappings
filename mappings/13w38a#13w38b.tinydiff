@@ -118,10 +118,10 @@ c	net/minecraft/unmapped/C_5553933
 		p	1		x	
 		p	2		y	
 		p	3		z	
-	m	(III)Lnet/minecraft/unmapped/C_8048208;	m_5294276	m_5294276	
-		p	1		p_1	
-		p	2		p_2	
-		p	3		p_3	
+	m	(III)Lnet/minecraft/unmapped/C_8048208;	m_5294276	getMaterial	
+		p	1		x	
+		p	2		y	
+		p	3		z	
 	m	(IIII)F	m_7165314	m_7165314	
 		p	1		p_1	
 		p	2		p_2	
@@ -131,10 +131,10 @@ c	net/minecraft/unmapped/C_5553933
 		p	1		x	
 		p	2		y	
 		p	3		z	
-	m	(III)Z	m_9239141	m_9239141	
-		p	1		p_1	
-		p	2		p_2	
-		p	3		p_3	
+	m	(III)Z	m_9239141	isOpaqueCubeAt	
+		p	1		x	
+		p	2		y	
+		p	3		z	
 	m	(III)Z	m_6985202	m_6985202	
 		p	1		p_1	
 		p	2		p_2	

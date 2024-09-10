@@ -78,9 +78,9 @@ c	net/minecraft/unmapped/C_3325732
 	m	()I	m_0469364	m_0469364	
 c	net/minecraft/unmapped/C_3622326
 	f	Lnet/minecraft/unmapped/C_5553933;	f_3796532	f_3796532	
-	f	I	f_4378143	f_4378143	
-	f	I	f_0734318	f_0734318	
-	f	I	f_6596512	f_6596512	
+	f	I	f_4378143	x	
+	f	I	f_0734318	y	
+	f	I	f_6596512	z	
 	m	()V	m_0895893	m_0895893	
 c	net/minecraft/unmapped/C_3755722
 	f	Lnet/minecraft/unmapped/C_3755722;	f_7093581	FLINT_AND_STEEL	

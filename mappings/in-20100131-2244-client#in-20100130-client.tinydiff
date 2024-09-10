@@ -1,21 +1,21 @@
 tiny	2	0
-c	net/minecraft/client/C_0113445	net/minecraft/client/C_0113445	
-	f	Ljava/awt/Component;	f_9475132	f_9475132	
-	f	Ljava/awt/Robot;	f_3509429	f_3509429	
+c	net/minecraft/client/C_0113445	net/minecraft/client/Mouse	
+	f	Ljava/awt/Component;	f_9475132	component	
+	f	Ljava/awt/Robot;	f_3509429	robot	
 	f	I	f_4312758	f_4312758	
 	f	I	f_2969124	f_2969124	
-	f	Lorg/lwjgl/input/Cursor;	f_4416362	f_4416362	
-	f	I	f_7863556	f_7863556	
-	f	I	f_9507829	f_9507829	
+	f	Lorg/lwjgl/input/Cursor;	f_4416362	cursor	
+	f	I	f_7863556	x	
+	f	I	f_9507829	y	
 	f	I	f_7883831	f_7883831	
 	m	(Ljava/awt/Component;)V	<init>	<init>	
 		p	1		p_1	
-	m	()V	m_7285859	m_7285859	
+	m	()V	m_7285859	grab	
 	m	()V	m_2934395	m_2934395	
 c	net/minecraft/client/C_5664496
-	f	Lnet/minecraft/client/C_0113445;	f_3438392	f_3438392	
-	f	Ljava/io/File;	f_3475389	f_3475389	
-c	net/minecraft/client/C_8938952	net/minecraft/client/C_8938952	
+	f	Lnet/minecraft/client/C_0113445;	f_3438392	mouse	
+	f	Ljava/io/File;	f_3475389	runDir	
+c	net/minecraft/client/C_8938952	net/minecraft/client/gui/screen/TitleScreen	
 	f	F	f_4140387	f_4140387	
 	m	()V	<init>	<init>	
 	m	()V	m_2450377	m_2450377	
@@ -84,11 +84,11 @@ c	net/minecraft/unmapped/C_2671832
 		p	1			p_1
 c	net/minecraft/unmapped/C_2691939
 	m	(Lnet/minecraft/unmapped/C_3831727;Ljava/lang/String;III)V	m_6649515	drawString	
-		p	0		p_0	
-		p	1		textRenderer	
-		p	2		text	
-		p	3		x	
-		p	4		y	
+		p	0		textRenderer	
+		p	1		text	
+		p	2		x	
+		p	3		y	
+		p	4		color	
 c	net/minecraft/unmapped/C_3755722
 	f	I	f_3245983	maxDamage	
 	f	Lnet/minecraft/unmapped/C_3755722;	f_1808804		f_1808804

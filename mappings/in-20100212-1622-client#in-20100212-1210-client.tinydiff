@@ -1,8 +1,8 @@
 tiny	2	0
 c	net/minecraft/client/C_5664496
-	f	Lnet/minecraft/client/MinecraftApplet;	f_5520023	f_5520023	
+	f	Lnet/minecraft/client/MinecraftApplet;	f_5520023	applet	
 c	net/minecraft/client/C_8730536
-	f	Ljava/lang/String;	f_8012522	f_8012522	
+	f	Ljava/lang/String;	f_8012522	sessionId	
 c	net/minecraft/unmapped/C_0256098
 	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_8806455;	m_6418538		m_6418538
 		p	1			p_1

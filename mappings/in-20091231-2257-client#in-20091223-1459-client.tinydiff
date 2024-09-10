@@ -3,12 +3,12 @@ c	net/minecraft/client/C_0877775
 	m	(Ljava/lang/String;)V	m_0983733	m_0983733	
 		p	1		p_1	
 c	net/minecraft/client/C_1331819
-	f	Lnet/minecraft/client/C_3543146;	f_9316411	f_9316411	
-	f	Lnet/minecraft/client/C_3543146;	f_0940441	f_0940441	
+	f	Lnet/minecraft/client/C_3543146;	f_9316411	inventoryKey	
+	f	Lnet/minecraft/client/C_3543146;	f_0940441	dropKey	
 	f	Lnet/minecraft/client/C_3543146;	f_7595807		f_7595807
 c	net/minecraft/client/C_5664496
-	f	Lnet/minecraft/unmapped/C_1023567;	f_6058446	f_6058446	
-	f	Lnet/minecraft/unmapped/C_9590849;	f_6058446		f_6058446
+	f	Lnet/minecraft/unmapped/C_1023567;	f_6058446	player	
+	f	Lnet/minecraft/unmapped/C_9590849;	f_6058446		player
 	f	Z	f_7579809		f_7579809
 	f	Lorg/lwjgl/input/Cursor;	f_5333905		f_5333905
 	f	Ljava/awt/Robot;	f_9154570		f_9154570

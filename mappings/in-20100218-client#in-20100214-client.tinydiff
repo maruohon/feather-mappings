@@ -2,8 +2,8 @@ tiny	2	0
 c	net/minecraft/client/C_1331819
 	f	Z	f_3094045	f_3094045	
 c	net/minecraft/unmapped/C_2018497
-	m	(Ljava/lang/String;)Z	m_2372229	m_2372229	
-		p	1		p_1	
+	m	(Ljava/lang/String;)Z	m_2372229	contains	
+		p	1		key	
 c	net/minecraft/unmapped/C_2313930
 	m	(FF)V	<init>	<init>	
 		p	1		reduction	

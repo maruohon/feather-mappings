@@ -93,11 +93,11 @@ c	net/minecraft/unmapped/C_1812290	net/minecraft/unmapped/C_1812290
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_2018497
-	m	(Ljava/lang/String;Z)V	m_4320568	m_4320568	
-		p	1		p_1	
-		p	2		p_2	
-	m	(Ljava/lang/String;)Z	m_0395945	m_0395945	
-		p	1		p_1	
+	m	(Ljava/lang/String;Z)V	m_4320568	putBoolean	
+		p	1		key	
+		p	2		value	
+	m	(Ljava/lang/String;)Z	m_0395945	getBoolean	
+		p	1		key	
 c	net/minecraft/unmapped/C_2159296	net/minecraft/crafting/ArmorRecipes	
 	f	[[Ljava/lang/String;	f_8762180	patterns	
 	f	[[Ljava/lang/Object;	f_2634557	recipes	
@@ -225,7 +225,7 @@ c	net/minecraft/unmapped/C_5553933
 	f	I	f_6732352	f_6732352	
 	f	I	f_5627840	f_5627840	
 	f	Lnet/minecraft/unmapped/C_7079324;	f_4330482	f_4330482	
-	f	I	f_6512025	f_6512025	
+	f	I	f_6512025	time	
 	f	I	f_4754574	f_4754574	
 	f	F	f_6732352		f_6732352
 	m	()V	m_4237443	m_4237443	
@@ -244,9 +244,9 @@ c	net/minecraft/unmapped/C_5553933
 	m	(I)V	m_9809636	m_9809636	
 		p	1		p_1	
 	m	(III)Z	m_2029997	m_2029997	
-		p	1		p_1	
-		p	2		p_2	
-		p	3		p_3	
+		p	1		x	
+		p	2		y	
+		p	3		z	
 	m	(IIII)V	m_8815383		m_8815383
 		p	1			p_1
 		p	2			p_2

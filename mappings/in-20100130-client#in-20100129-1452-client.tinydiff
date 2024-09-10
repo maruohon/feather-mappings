@@ -1,7 +1,7 @@
 tiny	2	0
 c	net/minecraft/client/C_5664496
-	f	Lnet/minecraft/client/C_8036556;	f_2102728	f_2102728	
-c	net/minecraft/client/C_8036556	net/minecraft/client/C_8036556	
+	f	Lnet/minecraft/client/C_8036556;	f_2102728	glCapabilities	
+c	net/minecraft/client/C_8036556	net/minecraft/client/render/GlCapabilities	
 	f	Z	f_8081759	f_8081759	
 	m	()V	<init>	<init>	
 c	net/minecraft/unmapped/C_0230603	net/minecraft/crafting/ToolRecipes	

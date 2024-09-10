@@ -4,11 +4,11 @@ c	net/minecraft/client/C_3987516
 		p	1		p_1	
 	m	()V	<init>		<init>
 c	net/minecraft/client/C_5664496
-	f	Z	f_3516533	f_3516533	
-	f	Ljava/lang/String;	f_4057030	f_4057030	
-	f	I	f_3882850	f_3882850	
-	f	Z	f_5452485	f_5452485	
-	f	Lnet/minecraft/unmapped/C_1872000;	f_3843367	f_3843367	
+	f	Z	f_3516533	paused	
+	f	Ljava/lang/String;	f_4057030	loadMapUsername	
+	f	I	f_3882850	loadMapId	
+	f	Z	f_5452485	skipGameRender	
+	f	Lnet/minecraft/unmapped/C_1872000;	f_3843367	soundSystem	
 	m	(Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -30,8 +30,8 @@ c	net/minecraft/client/C_8471264
 	m	()[Lnet/minecraft/client/C_8471264;	m_2430178		m_2430178
 c	net/minecraft/client/C_8730536
 	m	(Ljava/lang/String;Ljava/lang/String;)V	<init>	<init>	
-		p	1		p_1	
-		p	2		p_2	
+		p	1		username	
+		p	2		sessionId	
 	m	(Ljava/lang/String;)V	<init>		<init>
 		p	1			p_1
 c	net/minecraft/client/C_8739928
@@ -42,7 +42,7 @@ c	net/minecraft/client/C_8739928
 	m	()V	m_4325647	m_4325647	
 c	net/minecraft/client/C_9029783
 	f	Lnet/minecraft/client/C_5664496;	f_6145320	f_6145320	
-	m	()V	m_1418303	m_1418303	
+	m	()V	m_1418303	cancel	
 c	net/minecraft/client/MinecraftApplet
 	m	()V	m_3842877	m_3842877	
 c	net/minecraft/unmapped/C_0256098	net/minecraft/client/sound/system/Sounds	
@@ -187,11 +187,11 @@ c	net/minecraft/unmapped/C_2348249
 		p	4		width	
 		p	5		height	
 		p	6		message	
-	m	(Lnet/minecraft/client/C_5664496;II)V	m_9498802	m_9498802	
+	m	(Lnet/minecraft/client/C_5664496;II)V	m_9498802	render	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(II)Z	m_7971956	m_7971956	
+	m	(II)Z	m_7971956	isMouseOver	
 		p	1		p_1	
 		p	2		p_2	
 	m	(IIIILjava/lang/String;)V	<init>		<init>

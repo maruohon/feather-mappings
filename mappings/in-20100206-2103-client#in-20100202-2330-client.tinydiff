@@ -1,7 +1,7 @@
 tiny	2	0
 c	net/minecraft/client/C_1331819
-	f	[Ljava/lang/String;	f_1475560	f_1475560	
-	f	I	f_8299356	f_8299356	
+	f	[Ljava/lang/String;	f_1475560	DIFFICULTY_SETTINGS	
+	f	I	f_8299356	defaultDifficulty	
 c	net/minecraft/client/C_8036556
 	f	Z	f_8081759		f_8081759
 c	net/minecraft/client/C_8938952
@@ -507,9 +507,9 @@ c	net/minecraft/unmapped/C_5553933
 	m	()V	m_9594040	m_9594040	
 	m	()V	m_3287315	m_3287315	
 	m	(IIII)V	m_4336330	m_4336330	
-		p	1		p_1	
-		p	2		p_2	
-		p	3		p_3	
+		p	1		x	
+		p	2		y	
+		p	3		z	
 		p	4		p_4	
 	m	()Ljava/lang/String;	m_6248674		m_6248674
 c	net/minecraft/unmapped/C_5577922

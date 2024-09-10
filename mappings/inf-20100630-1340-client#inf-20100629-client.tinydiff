@@ -441,13 +441,13 @@ c	net/minecraft/unmapped/C_2454309
 c	net/minecraft/unmapped/C_2691939
 	m	(IIIIII)V	m_9889399
 		p	6		color2	
-		p	0			p_0
+		p	0			x1
 	m	(Lnet/minecraft/unmapped/C_3831727;Ljava/lang/String;III)V	m_2717572
 		p	5		color	
-		p	0			p_0
+		p	0			textRenderer
 	m	(Lnet/minecraft/unmapped/C_3831727;Ljava/lang/String;III)V	m_6649515
 		p	5		color	
-		p	0			p_0
+		p	0			textRenderer
 c	net/minecraft/unmapped/C_2711798
 	m	()Lnet/minecraft/unmapped/C_2454309;	m_2576099	getStack	
 c	net/minecraft/unmapped/C_2788918
