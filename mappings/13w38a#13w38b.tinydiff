@@ -131,7 +131,7 @@ c	net/minecraft/unmapped/C_5553933
 		p	1		x	
 		p	2		y	
 		p	3		z	
-	m	(III)Z	m_9239141	isOpaqueCubeAt	
+	m	(III)Z	m_9239141	isRedstoneConductor	
 		p	1		x	
 		p	2		y	
 		p	3		z	

@@ -442,12 +442,25 @@ c	net/minecraft/unmapped/C_2691939
 	m	(IIIIII)V	m_9889399
 		p	6		color2	
 		p	0			x1
+		p	1		x1	y1
+		p	2		y1	x2
+		p	3		x2	y2
+		p	4		y2	color1
+		p	5		color1	color2
 	m	(Lnet/minecraft/unmapped/C_3831727;Ljava/lang/String;III)V	m_2717572
 		p	5		color	
 		p	0			textRenderer
+		p	1		textRenderer	text
+		p	2		text	centerX
+		p	3		centerX	y
+		p	4		y	color
 	m	(Lnet/minecraft/unmapped/C_3831727;Ljava/lang/String;III)V	m_6649515
 		p	5		color	
 		p	0			textRenderer
+		p	1		textRenderer	text
+		p	2		text	x
+		p	3		x	y
+		p	4		y	color
 c	net/minecraft/unmapped/C_2711798
 	m	()Lnet/minecraft/unmapped/C_2454309;	m_2576099	getStack	
 c	net/minecraft/unmapped/C_2788918
