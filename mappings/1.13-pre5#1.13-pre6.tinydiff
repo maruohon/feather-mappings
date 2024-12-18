@@ -398,16 +398,16 @@ c	net/minecraft/unmapped/C_2635968$1		1
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_2691939
 	m	(Lnet/minecraft/unmapped/C_3831727;Ljava/lang/String;III)V	m_2717572	drawCenteredString	
-		p	1		text	
-		p	2		centerX	
-		p	3		y	
-		p	4		color	
+		p	1		textRenderer	
+		p	2		text	
+		p	3		centerX	
+		p	4		y	
 		p	5		color	
 	m	(Lnet/minecraft/unmapped/C_3831727;Ljava/lang/String;III)V	m_6649515	drawString	
-		p	1		text	
-		p	2		x	
-		p	3		y	
-		p	4		color	
+		p	1		textRenderer	
+		p	2		text	
+		p	3		x	
+		p	4		y	
 		p	5		color	
 	m	(Lnet/minecraft/unmapped/C_4399780;Ljava/lang/String;III)V	m_2717572		drawCenteredString
 		p	1			p_1
